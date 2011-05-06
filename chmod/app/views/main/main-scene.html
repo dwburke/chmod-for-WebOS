@@ -1,0 +1,45 @@
+<div id="main" class="palm-hasheader">
+	<div class="palm-header">chmod</div>
+</div>
+	
+<div align=center>
+	Mode: 	<span id="maskStickyBit">0</span><span id="maskUser">0</span><span id="maskGroup">0</span><span id="maskOther">0</span>
+<br>umask: <span id="umaskUser">7</span><span id="umaskGroup">7</span><span id="umaskOther">7</span>
+</div>
+<div> 
+
+<table border=0 align=center>
+	<tr align=center>
+		<td>User</td>
+		<td>Group</td>
+		<td>Other</td>
+	</tr>
+
+	<tr>
+    <td><div x-mojo-element="ToggleButton" id="togUserReadId" class="toggleClass" name="togUserRead"></div></td>
+	<td><div x-mojo-element="ToggleButton" id="togGroupReadId" class="toggleClass" name="togGroupRead"></div></td>
+	<td><div x-mojo-element="ToggleButton" id="togOtherReadId" class="toggleClass" name="togOtherRead"></div></td>
+	</tr>
+	
+	<tr>
+    <td><div x-mojo-element="ToggleButton" id="togUserWriteId" class="toggleClass" name="togUserWrite"></div></td>
+    <td><div x-mojo-element="ToggleButton" id="togGroupWriteId" class="toggleClass" name="togGroupWrite"></div></td>
+    <td><div x-mojo-element="ToggleButton" id="togOtherWriteId" class="toggleClass" name="togOtherWrite"></div></td>
+	</tr>
+	
+	<tr>
+    <td><div x-mojo-element="ToggleButton" id="togUserExecuteId" class="toggleClass" name="togUserExecute"></div></td>
+    <td><div x-mojo-element="ToggleButton" id="togGroupExecuteId" class="toggleClass" name="togGroupExecute"></div></td>
+    <td><div x-mojo-element="ToggleButton" id="togOtherExecuteId" class="toggleClass" name="togOtherExecute"></div></td>
+	</tr>
+
+</table>
+</div>
+
+<table border=0 align=center>
+<tr align=center>
+	<td >Sticky Bit<div x-mojo-element="ToggleButton" id="togStickyBitId" class="toggleClass" name="togStickyBit"></div></td>
+	<td >SUID User<div x-mojo-element="ToggleButton" id="togSuidUserId" class="toggleClass" name="togSuidUser"></div></td>
+	<td >SUID Group<div x-mojo-element="ToggleButton" id="togSuidGroupId" class="toggleClass" name="togSuidGroup"></div></td>
+</tr>
+</table>
